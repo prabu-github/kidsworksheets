@@ -55,7 +55,7 @@ TEMPLATE = """<!doctype html>
 <body>
 <form id="f">
   <h1>__TITLE__</h1>
-  <p>Enter the password your teacher gave you.</p>
+  <p>Enter the password your parent gave you.</p>
   <input id="pw" type="password" autocomplete="current-password" aria-label="Password" required autofocus>
   <button id="go" type="submit">Open worksheet</button>
   <div id="msg" role="alert"></div>
